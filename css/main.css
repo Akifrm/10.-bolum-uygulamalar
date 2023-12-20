@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+#bg-blue {
+    background-color: #16bdcf;
+}
+
+.container {
+    display: flex;
+    max-width: 1296px;
+    width: 100%;
+    padding: 12px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#container {
+    display: flex;
+    max-width: 1296px;
+    width: 100%;
+    padding: 12px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    transition: all 0.3s ease-in;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+img {
+    width: 265px;
+}
+
+.fa-bars,
+.fa-x {
+    font-size: 2rem;
+    display: none;
+}
+
+#buttons {
+    display: none;
+    align-items: center;
+}
+
+.click {
+    cursor: pointer;
+}
+
+#menu-container {
+    width: 100%;
+}
+
+.kapsayici {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.row {
+    display: flex;
+}
+
+.kapsayici2 {
+    position: relative;
+}
+
+.bg-red {
+    height: 594.75px;
+}
+
+.banner-content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    height: 594.75px;
+    color: white;
+}
+
+.banner-title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.banner-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+#first {
+    background: url('https://storage.acerapps.io/app-1244/public/20221017/background1.jpg');
+    width: 882px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#second {
+    background: url('https://storage.acerapps.io/app-1244/public/20221019/MicrosoftTeams-image.png');
+    width: 840px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#ucuncu {
+    background: url('https://storage.acerapps.io/app-1244/public/20221024/MicrosoftTeams-image (1).png');
+    width: 840px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.arrow {
+    margin: 0 25px;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    color: white;
+}
+
+.fa-left-long {
+    z-index: 1;
+}
+
+.fa-right-long {
+    z-index: 1;
+    right: 32px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 1.5rem;
+    color: white;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 1.5rem;
+    color: white;
+}
+
+.slick-dots li {
+    margin: 0 10px;
+}
+
+.slick-dots li button {
+    border-radius: 50%;
+    border: 2px solid white;
+    
+}
+
+.slick-dots li button:hover {
+    border-radius: 50%;
+
+    border: 2px solid white;
+}
+
+.slick-active {
+    background: white;
+
+    border-radius: 100%;
+}
+
+.slick-dots li button:before {
+    font-family: none;
+    font-size: 0;
+}
